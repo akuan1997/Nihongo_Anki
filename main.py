@@ -17,7 +17,8 @@ data_list = [
 # 2. 設定
 JP_VOICE = "ja-JP-NanamiNeural"
 ZH_VOICE = "zh-TW-HsiaoChenNeural"
-OUTPUT_FOLDER = "anki_media_export"
+OUTPUT_FOLDER = r"C:\Users\pfii1\AppData\Roaming\Anki2\job\collection.media"
+
 CSV_FILENAME = "anki_import_with_romaji.csv"
 
 if not os.path.exists(OUTPUT_FOLDER):
